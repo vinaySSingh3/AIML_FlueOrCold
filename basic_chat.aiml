@@ -1,0 +1,105 @@
+<aiml version="0.9.2" encoding="UTF-8">
+<category>
+    <pattern>cold</pattern>
+    <template><random>
+    <li>you caught cold!</li>
+    </random></template>
+</category>
+
+<category>
+    <pattern>aches</pattern>
+    <template>
+    <srai>cold</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>pain</pattern>
+    <template>
+    <srai>cold</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>sore throat</pattern>
+    <template>
+    <srai>cold</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>sneezing</pattern>
+    <template>
+    <srai>cold</srai>
+    </template>
+</category>
+
+
+
+
+
+
+
+<category>
+    <pattern>chills</pattern>
+    <template><random>
+    <li>you caught flu!</li>
+    </random></template>
+</category>
+
+<category>
+    <pattern>headeches</pattern>
+    <template>
+    <srai>chills</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>weak</pattern>
+    <template>
+    <srai>chills</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>tired</pattern>
+    <template>
+    <srai>chills</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>vomiting</pattern>
+    <template>
+    <srai>chills</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>nausea</pattern>
+    <template>
+    <srai>chills</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>diarrhea</pattern>
+    <template>
+    <srai>chills</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>fever</pattern>
+    <template>
+    <srai>chills</srai>
+    </template>
+</category>
+
+<category>
+    <pattern>*</pattern>
+    <template>
+    it seems dangerous,consult our doctor MOHAN
+    </template>
+</category>
+</aiml>
